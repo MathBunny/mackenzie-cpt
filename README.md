@@ -7,4 +7,4 @@
 * To provide quick-links to popular websites
 
 ####Website Version:
-Version 1.0.0.0 Alpha
+Version 2.0
