@@ -31,6 +31,96 @@ h4{
     font-weight: 100;
 	
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+
+/* Sub Menus */
+.nav li li {
+  font-size: .8em;
+}
+
+/*******************************************
+   Style menu for larger screens
+
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+
+@media screen and (min-width: 650px) {
+  .nav li {
+    width: 180px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .nav a {
+    border-bottom: none;
+  }
+
+  .nav > ul > li {
+    text-align: center;
+  }
+
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .nav li:hover ul {
+    display: block;
+  }
+
+  .nav li ul li {
+    display: block;
+  }
+}
+
 
 </style>
 
@@ -57,15 +147,41 @@ h4{
    <li class='last'><a href='contact.html'><span>Contact</span></a></li>
 </ul>
 </div>
+
+<body class="news">
+  <header>
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="#">Home</a></li>
+        <li class="tutorials"><a href="#">Contests</a>
+          <ul>
+            <li><a href="#">Submit Solution</a></li>
+            <li><a href="#">Current Leaderboard</a></li>
+            <li><a href="#">Overall Leaderboard</a></li>
+          </ul>
+        </li>
+        <li class="about"><a class="active" href="#">Weekly Lessons</a></li>
+        <li class="news"><a href="#">ECOO Qualifiers</a>
+
+        </li>
+        <li class="contact"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+</body>
+
+
 <center> <h1>Seniors Weekly Contest </h1>
 
-<center> <h3> Solution Submission: </h3>
+<h3> <center>  Solution Submission below: </center> 
+
 <iframe src="https://docs.google.com/forms/d/1epd3YZOXTZeQHoaVQOWRq4WOkuTOaduF1Xus3J_sVwE/viewform?embedded=true" width="900" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> </
 
 </center>
-<h3> Click here for <a href = "leaderboard.html"> leaderboard</a> and <a href = "https://docs.google.com/presentation/d/1Elv4N47HfVLiyA4jxRf2cJglWAMJW3RpUYhzWISgTwA/edit?usp=sharing">problems.</a> </h3>
 
-</center>
+<h3> Click here for <a href = "leaderboard.html"> current leaderboard</a>, <a href = "overall.html">overall leaderboard</a> 
+and  <a href = "https://docs.google.com/presentation/d/1Elv4N47HfVLiyA4jxRf2cJglWAMJW3RpUYhzWISgTwA/edit?usp=sharing">problems.</a> </h3>
+
 <hr> <center> <h4> Website Developed by: Horatiu Lazu </h4> </center>
 <body background="background.jpg">
 </body>

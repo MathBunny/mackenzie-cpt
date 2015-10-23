@@ -40,7 +40,7 @@
   border-bottom-right-radius: 3px;
 }
 #cssmenu #bg-one {
-  height: 10px;
+  height: 20px;
   background: #0f71ba;
 }
 #cssmenu #bg-two {
@@ -62,7 +62,7 @@
 }
 #cssmenu #bg-four {
   bottom: 4px;
-  height: 55px;
+  height: 5px;
   z-index: 4;
   background: url('images/bg.png');
 }
