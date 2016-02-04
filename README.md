@@ -8,5 +8,9 @@
 * Provide ability for feedback
 * Provide sample JDCC problems
 
+##Future Upgrades:
+* Text file judge for weekly contests
+* More improved layout
+
 ####Website Version:
-Version 2.0
+Version 3.0
