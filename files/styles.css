@@ -1,4 +1,45 @@
 @import url(http://fonts.googleapis.com/css?family=Capriola);
+h1{
+	font-family: "Helvetica",Helvetica;
+}
+th, td {
+    padding: 3px;
+}
+h2{
+	font-family: "Helvetica",Helvetica;
+	font-size:30px;
+	font-weight: 100;
+	 
+}
+h3 {
+    font-family: "Helvetica",Helvetica;
+    font-style: normal;
+    font-size: 23px;
+    font-weight: 100;
+    
+}
+h3.normal{
+	font-style: normal;
+	font-weight: 10px;;
+	
+}
+h4{
+	
+	font-family: "Helvetica",Helvetica;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 100;
+	
+}
+h5{
+	font-family: "Helvetica",Helvetica;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -104,46 +145,3 @@
   background: url('images/bg.png');
   color: #ffffff;
 }
-body{
-	 background: url(images/background2.jpg) no-repeat center center fixed;
-	
-}
-h1{
-	font-family: "Helvetica",Helvetica;
-}
-th, td {
-    padding: 3px;
-}
-h2{
-	font-family: "Helvetica",Helvetica;
-	font-size:30px;
-	font-weight: 100;
-	 
-}
-h3 {
-    font-family: "Helvetica",Helvetica;
-    font-style: normal;
-    font-size: 23px;
-    font-weight: 100;
-    
-}
-h3.normal{
-	font-style: normal;
-	font-weight: 10px;;
-	
-}
-h4{
-	
-	font-family: "Helvetica",Helvetica;
-    font-style: normal;
-    font-size: 12px;
-    font-weight: 100;
-	
-}
-h5{
-	font-family: "Helvetica",Helvetica;
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 100;
-}
-
