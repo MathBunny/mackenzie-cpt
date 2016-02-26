@@ -1,5 +1,5 @@
 # William Lyon Mackenzie CI CPT Website
-####By: Horatiu Lazu
+####Developed by: Horatiu Lazu
 ##Purpose:
 * To inform members of the club about events that are happening
 * To provide links to material used in meetings
@@ -10,7 +10,6 @@
 
 ##Future Upgrades:
 * Text file judge for weekly contests
-* More improved layout
 
 ####Website Version:
-Version 3.0
+Version 3.1
