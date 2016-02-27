@@ -1,3 +1,10 @@
+$(document).ready(function()){
+	$("#buttonCompareFiles").click(function()){
+		alert("Pressed!");
+	}
+	$('#cssmenu').prepend('<div id="bg-one"></div><div id="bg-two"></div><div id="bg-three"></div><div id="bg-four"></div>');
+}
+/*
 function DifferencerTest()
 {
 	this.main = function()
@@ -482,4 +489,4 @@ function PassagePair(doPassagesMatch, passages)
 		return returnValue;
 	}
 }
-new DifferencerTest().main();
+new DifferencerTest().main();*/
