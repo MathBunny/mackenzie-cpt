@@ -1,4 +1,5 @@
 $(document).ready(function()){
+	alert("Sup");
 	$("#buttonCompareFiles").click(function()){
 		alert("Pressed!");
 	}
