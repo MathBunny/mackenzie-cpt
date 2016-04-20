@@ -1,4 +1,5 @@
-# William Lyon Mackenzie CI CPT Website
+# Mackenzie Computer Programming Team Website
+
 ##Purpose:
 * To inform members of the club about events that are happening
 * To provide links to material used in meetings
@@ -8,5 +9,4 @@
 ##Future Upgrades:
 * Add leaderboard for weekly contests
 
-####Website Version:
-Version 4.0
+######Website Version 4.0
