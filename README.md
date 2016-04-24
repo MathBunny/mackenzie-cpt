@@ -9,4 +9,7 @@
 ##Future Upgrades:
 * Add leaderboard for weekly contests
 
-######Website Version 4.0
+##Contributing:
+Feel free to contribute to this project if you have sample problem suggestions, update events, or want to implement a new feature!
+
+######Website Version 2.0
