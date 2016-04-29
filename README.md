@@ -10,6 +10,6 @@
 * Add leaderboard for weekly contests
 
 ##Contributing:
-Feel free to contribute to this project if you have sample problem suggestions, update events, or want to implement a new feature!
+Feel free to contribute to this project if you have sample problem suggestions, have events to update, or want to implement a new feature!
 
 ######Website Version 2.0
